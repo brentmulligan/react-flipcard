@@ -1,9 +1,10 @@
 import React from 'react';
 import DOM from 'react-dom';
 import FlipCard from '../../lib/main';
+import createReactClass from 'create-react-class';
 
 
-const App = React.createClass({
+const App = createReactClass({
   getInitialState() {
     return {
       isFlipped: false
@@ -53,7 +54,7 @@ const App = React.createClass({
           or the back, with `true` meaning show the back.
         */}
         <FlipCard
-          disabled={true}
+          disabled
           flipped={this.state.isFlipped}
           onFlip={this.handleOnFlip}
           onKeyDown={this.handleKeyDown}

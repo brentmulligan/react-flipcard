@@ -1,11 +1,12 @@
 {
   "name": "react-flipcard",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "React flip card component",
   "main": "lib/main.js",
   "scripts": {
     "test": "rackt test --single-run --browsers Firefox",
-    "start": "rackt server"
+    "start": "rackt server",
+    "build": "rackt build"
   },
   "repository": {
     "type": "git",
@@ -21,16 +22,18 @@
   },
   "homepage": "https://github.com/mzabriskie/react-flipcard",
   "devDependencies": {
-    "rackt-cli": "^0.5.3",
-    "react": "^0.14.0",
-    "react-addons-test-utils": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "prop-types": "^15.6.0",
+    "rackt-cli": "^0.8.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "dependencies": {
-    "classnames": "^2.2.0"
+    "classnames": "^2.2.0",
+    "create-react-class": "^15.6.2"
   }
 }
