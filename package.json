@@ -2,7 +2,7 @@
   "name": "react-flipcard",
   "version": "0.3.0",
   "description": "React flip card component",
-  "main": "lib/main.js",
+  "main": "dist/react-flipcard.js",
   "scripts": {
     "test": "rackt test --single-run --browsers Firefox",
     "start": "rackt server",
